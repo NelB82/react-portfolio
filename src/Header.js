@@ -13,12 +13,12 @@ export default function header() {
             width="100px"
           />
           <a href="/" className="homeLogo" title="homeLogoButton">
-            <h2>NB</h2>
+            NB
           </a>
         </div>
         <div className="col-md-8">
           <nav className="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-            <div className="container-fluid">
+            <div className=" container-fluid">
               <button
                 className="navbar-toggler"
                 type="button"
@@ -33,36 +33,24 @@ export default function header() {
               </button>
               <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav ml-auto navbarList">
-                  <li className="nav-item pr-5">
+                  <li className="nav-item pr-4">
                     <a className="nav-link active" aria-current="page" href="/">
                       Home
                     </a>
                   </li>
-                  <li className="nav-item pr-5">
-                    <a
-                      className="nav-link"
-                      title="projectLink"
-                      href="/about.html"
-                    >
+                  <li className="nav-item pr-4">
+                    <a className="nav-link" href="/about.html">
                       Über mich
                     </a>
                   </li>
-                  <li className="nav-item pr-5">
-                    <a
-                      className="nav-link"
-                      title="projectLink"
-                      href="/work.html"
-                    >
+                  <li className="nav-item pr-4">
+                    <a className="nav-link" href="/work.html">
                       Meine Arbeit
                     </a>
                   </li>
 
-                  <li className="nav-item pr-5">
-                    <a
-                      className="nav-link"
-                      title="contactLink"
-                      href="/contact.html"
-                    >
+                  <li className="nav-item pr-4">
+                    <a className="nav-link" href="/contact.html">
                       Kontakt
                     </a>
                   </li>

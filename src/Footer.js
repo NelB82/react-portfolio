@@ -1,8 +1,9 @@
 import React from "react";
+import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer>
+    <div className="footer">
       <div className="d-flex footer mb-5">
         <div className="icons footer ml-5">
           <a
@@ -28,6 +29,6 @@ export default function Footer() {
           Illustrations by Nele Braun
         </div>
       </div>
-    </footer>
+    </div>
   );
 }

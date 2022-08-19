@@ -1,5 +1,9 @@
 .head {
+  font-weight: 400;
   background-color: white;
+  line-height: 1.5;
+  margin-top: 20px;
+  font-size: 1rem;
 }
 h2 {
   color: black;
@@ -9,8 +13,24 @@ h2 {
 .homeLogo {
   text-decoration: none;
   font-size: 32px;
+  color: black;
+}
+.homeLogo:hover {
+  color: black;
+  opacity: 70%;
+  transition: 200ms ease-in-out;
 }
 
-.row.logoCol {
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.nav-link {
+  text-align: right;
+  margin-left: 100px;
+}
+
+.logoCol {
   padding-left: 100px;
+  padding-right: 100px;
 }

@@ -11,13 +11,13 @@ export default function Illustrations() {
               src="/images/Dove.png"
               alt="DoveIllustration"
               width="350px"
-              className="illustration"
+              className="pngIllustration"
             />
             <div>
               <a
                 href="/work.html"
                 title="projectLink"
-                class="IllustrationTitles"
+                className="llustrationTitles"
               >
                 Dove Illustration
               </a>
@@ -28,13 +28,13 @@ export default function Illustrations() {
               src="/images/Flamingo.png"
               alt="FlamingoIllustration"
               width="350px"
-              className="illustration"
+              className="pngIllustration"
             />
             <div>
               <a
                 href="/work.html"
                 title="projectLink"
-                class="IllustrationTitles"
+                className="IllustrationTitles"
               >
                 Flamingo Illustration
               </a>
@@ -45,13 +45,13 @@ export default function Illustrations() {
               src="/images/Peacock.png"
               alt="PeacockIllustration"
               width="350px"
-              className="illustration"
+              className="pngIllustration"
             />
             <div>
               <a
                 href="/work.html"
                 title="projectLink"
-                class="IllustrationTitles"
+                className="IllustrationTitles"
               >
                 Peacock Illustration
               </a>
