@@ -1,9 +1,18 @@
 import "./App.css";
+import Header from "./Header.js";
+import Footer from "./Footer";
+import Hero from "./Hero";
+import Illustrations from "./Illustrations";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <body className="Wrapper">
+        <Header />
+        <Hero />
+        <Illustrations />
+        <Footer />
+      </body>
     </div>
   );
 }

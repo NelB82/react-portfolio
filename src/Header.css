@@ -1,0 +1,16 @@
+.head {
+  background-color: white;
+}
+h2 {
+  color: black;
+  font-size: 32px;
+  text-decoration: none;
+}
+.homeLogo {
+  text-decoration: none;
+  font-size: 32px;
+}
+
+.row.logoCol {
+  padding-left: 100px;
+}
